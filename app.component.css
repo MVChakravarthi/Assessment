@@ -1,0 +1,25 @@
+.dropdown {
+  position: relative;
+}
+
+.option {
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.option:hover {
+  background-color: yellow;
+}
+
+.option.selected {
+  background-color: yellow; /* Highlight the selected option with yellow */
+}
+
+/* Style for the selected option below the textarea */
+.selected-option {
+  background-color: yellow;
+
+  padding: 4px;
+  margin-top: 5px; /* Adjust the margin as needed */
+}
